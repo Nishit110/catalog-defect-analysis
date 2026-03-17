@@ -1,0 +1,201 @@
+seller_id,seller_city,seller_state
+SELL_0001,Fortaleza,BA
+SELL_0002,Recife,SP
+SELL_0003,Fortaleza,AM
+SELL_0004,Belo Horizonte,MG
+SELL_0005,Fortaleza,MG
+SELL_0006,São Paulo,CE
+SELL_0007,Salvador,CE
+SELL_0008,Fortaleza,BA
+SELL_0009,Recife,AM
+SELL_0010,Manaus,AM
+SELL_0011,Belo Horizonte,SP
+SELL_0012,Curitiba,BA
+SELL_0013,Belo Horizonte,SP
+SELL_0014,Rio de Janeiro,PE
+SELL_0015,Belo Horizonte,BA
+SELL_0016,São Paulo,RJ
+SELL_0017,Salvador,RJ
+SELL_0018,Salvador,PR
+SELL_0019,Manaus,BA
+SELL_0020,Fortaleza,AM
+SELL_0021,São Paulo,CE
+SELL_0022,Rio de Janeiro,MG
+SELL_0023,São Paulo,PR
+SELL_0024,Belo Horizonte,CE
+SELL_0025,São Paulo,RJ
+SELL_0026,São Paulo,BA
+SELL_0027,Manaus,PR
+SELL_0028,Rio de Janeiro,BA
+SELL_0029,Belo Horizonte,RJ
+SELL_0030,Curitiba,PR
+SELL_0031,Manaus,RJ
+SELL_0032,Curitiba,SP
+SELL_0033,Manaus,RJ
+SELL_0034,Salvador,AM
+SELL_0035,Recife,AM
+SELL_0036,Manaus,BA
+SELL_0037,Fortaleza,MG
+SELL_0038,São Paulo,RJ
+SELL_0039,Salvador,CE
+SELL_0040,Rio de Janeiro,AM
+SELL_0041,Curitiba,PE
+SELL_0042,Recife,MG
+SELL_0043,Recife,SP
+SELL_0044,Manaus,PR
+SELL_0045,São Paulo,PR
+SELL_0046,Rio de Janeiro,AM
+SELL_0047,Fortaleza,MG
+SELL_0048,Rio de Janeiro,AM
+SELL_0049,São Paulo,PR
+SELL_0050,Fortaleza,PE
+SELL_0051,Rio de Janeiro,RJ
+SELL_0052,Fortaleza,MG
+SELL_0053,Manaus,BA
+SELL_0054,Manaus,RJ
+SELL_0055,São Paulo,RJ
+SELL_0056,São Paulo,RJ
+SELL_0057,Fortaleza,BA
+SELL_0058,Belo Horizonte,PE
+SELL_0059,Salvador,SP
+SELL_0060,Recife,PE
+SELL_0061,Rio de Janeiro,PE
+SELL_0062,Rio de Janeiro,PE
+SELL_0063,Belo Horizonte,CE
+SELL_0064,Belo Horizonte,AM
+SELL_0065,Belo Horizonte,PR
+SELL_0066,Curitiba,AM
+SELL_0067,Curitiba,MG
+SELL_0068,Fortaleza,PE
+SELL_0069,Curitiba,SP
+SELL_0070,Manaus,MG
+SELL_0071,Manaus,AM
+SELL_0072,São Paulo,PR
+SELL_0073,Recife,BA
+SELL_0074,Fortaleza,AM
+SELL_0075,Recife,RJ
+SELL_0076,Rio de Janeiro,AM
+SELL_0077,Salvador,RJ
+SELL_0078,São Paulo,BA
+SELL_0079,Rio de Janeiro,AM
+SELL_0080,Rio de Janeiro,SP
+SELL_0081,Fortaleza,SP
+SELL_0082,Belo Horizonte,MG
+SELL_0083,Belo Horizonte,BA
+SELL_0084,Recife,PE
+SELL_0085,São Paulo,SP
+SELL_0086,Belo Horizonte,AM
+SELL_0087,Rio de Janeiro,BA
+SELL_0088,Belo Horizonte,PR
+SELL_0089,Curitiba,RJ
+SELL_0090,Belo Horizonte,AM
+SELL_0091,Rio de Janeiro,RJ
+SELL_0092,Recife,RJ
+SELL_0093,Fortaleza,PE
+SELL_0094,São Paulo,BA
+SELL_0095,Salvador,BA
+SELL_0096,Belo Horizonte,MG
+SELL_0097,Manaus,RJ
+SELL_0098,Manaus,MG
+SELL_0099,Recife,PE
+SELL_0100,Rio de Janeiro,RJ
+SELL_0101,Salvador,MG
+SELL_0102,Salvador,MG
+SELL_0103,Curitiba,PR
+SELL_0104,Salvador,MG
+SELL_0105,Manaus,BA
+SELL_0106,Fortaleza,MG
+SELL_0107,Rio de Janeiro,RJ
+SELL_0108,Rio de Janeiro,MG
+SELL_0109,Belo Horizonte,SP
+SELL_0110,Belo Horizonte,CE
+SELL_0111,Belo Horizonte,RJ
+SELL_0112,Manaus,SP
+SELL_0113,Manaus,PE
+SELL_0114,Recife,RJ
+SELL_0115,Manaus,BA
+SELL_0116,Manaus,CE
+SELL_0117,Manaus,CE
+SELL_0118,Manaus,BA
+SELL_0119,Fortaleza,CE
+SELL_0120,Manaus,BA
+SELL_0121,Recife,SP
+SELL_0122,Salvador,PE
+SELL_0123,Salvador,PR
+SELL_0124,Curitiba,RJ
+SELL_0125,Fortaleza,BA
+SELL_0126,Belo Horizonte,RJ
+SELL_0127,São Paulo,PE
+SELL_0128,Manaus,SP
+SELL_0129,Curitiba,PR
+SELL_0130,São Paulo,PE
+SELL_0131,Recife,SP
+SELL_0132,Salvador,CE
+SELL_0133,Curitiba,RJ
+SELL_0134,Recife,AM
+SELL_0135,Curitiba,PR
+SELL_0136,Rio de Janeiro,CE
+SELL_0137,Recife,PE
+SELL_0138,Salvador,PR
+SELL_0139,Salvador,CE
+SELL_0140,Fortaleza,SP
+SELL_0141,Curitiba,BA
+SELL_0142,Manaus,RJ
+SELL_0143,Salvador,MG
+SELL_0144,Curitiba,MG
+SELL_0145,Fortaleza,SP
+SELL_0146,Manaus,PE
+SELL_0147,Recife,RJ
+SELL_0148,Fortaleza,PE
+SELL_0149,Rio de Janeiro,RJ
+SELL_0150,Manaus,SP
+SELL_0151,Curitiba,RJ
+SELL_0152,Salvador,BA
+SELL_0153,Salvador,PE
+SELL_0154,Curitiba,SP
+SELL_0155,Curitiba,BA
+SELL_0156,Curitiba,RJ
+SELL_0157,Belo Horizonte,SP
+SELL_0158,Manaus,RJ
+SELL_0159,Salvador,PE
+SELL_0160,Manaus,SP
+SELL_0161,Fortaleza,RJ
+SELL_0162,Salvador,PE
+SELL_0163,Belo Horizonte,BA
+SELL_0164,Curitiba,AM
+SELL_0165,Rio de Janeiro,BA
+SELL_0166,Curitiba,RJ
+SELL_0167,Recife,SP
+SELL_0168,Curitiba,MG
+SELL_0169,Belo Horizonte,BA
+SELL_0170,Manaus,BA
+SELL_0171,Salvador,PE
+SELL_0172,Curitiba,CE
+SELL_0173,Salvador,MG
+SELL_0174,São Paulo,RJ
+SELL_0175,Fortaleza,AM
+SELL_0176,Manaus,SP
+SELL_0177,Salvador,CE
+SELL_0178,Rio de Janeiro,RJ
+SELL_0179,Fortaleza,PR
+SELL_0180,Recife,AM
+SELL_0181,Recife,BA
+SELL_0182,Rio de Janeiro,PR
+SELL_0183,Curitiba,BA
+SELL_0184,Fortaleza,BA
+SELL_0185,Salvador,PR
+SELL_0186,Fortaleza,AM
+SELL_0187,Curitiba,PE
+SELL_0188,Belo Horizonte,PR
+SELL_0189,Manaus,RJ
+SELL_0190,Rio de Janeiro,CE
+SELL_0191,Curitiba,CE
+SELL_0192,Belo Horizonte,PR
+SELL_0193,Fortaleza,RJ
+SELL_0194,Fortaleza,PE
+SELL_0195,Curitiba,CE
+SELL_0196,Salvador,RJ
+SELL_0197,Fortaleza,PE
+SELL_0198,Salvador,RJ
+SELL_0199,Salvador,BA
+SELL_0200,Manaus,CE
