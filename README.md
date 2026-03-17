@@ -124,3 +124,5 @@ with pd.ExcelWriter(f"../data/ops_report_{report_date}.xlsx", engine="openpyxl")
     weekly.to_excel(writer, sheet_name="Weekly_Trend", index=False)
 print(f"Report exported — ops_report_{report_date}.xlsx")
 print("Automated reporting complete — 3x faster than manual process")
+
+![Main Dashboard](dashboard/dashboard_01_main_ops.png) ![Revenue Impact](dashboard/dashboard_02_revenue_impact.png)
