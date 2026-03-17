@@ -15,7 +15,9 @@ warnings.filterwarnings("ignore")
 
 plt.rcParams.update({"figure.dpi": 120, "axes.spines.top": False, "axes.spines.right": False})
 print("Libraries loaded successfully")
+
 ## Step 1 — Load Dataset
+
 Download all CSVs from Kaggle and place in the  folder.
 orders      = pd.read_csv("../data/olist_orders_dataset.csv", parse_dates=["order_purchase_timestamp","order_delivered_customer_date","order_estimated_delivery_date"])
 order_items = pd.read_csv("../data/olist_order_items_dataset.csv")
@@ -29,7 +31,9 @@ products["category"] = products["product_category_name_english"].fillna(products
 print(f"Orders: {len(orders):,}")
 print(f"Products: {len(products):,}")
 print(f"Reviews: {len(reviews):,}")
+
 ## Step 2 — ETL: Build Master Dataset
+
 df = (
     orders
     .merge(order_items, on="order_id", how="left")
@@ -46,7 +50,9 @@ df["total_value"] = df["price"] + df["freight_value"]
 print(f"Master dataset: {df.shape}")
 print(f"Defect rate: {df['is_defect'].mean()*100:.2f}%")
 print(f"Late delivery rate: {df['is_late'].mean()*100:.2f}%")
+
 ## Step 3 — KPI Metrics Framework (8 Indicators)
+
 kpis = {
     "KPI 1 - Platform Defect Rate (%)": round(df["is_defect"].mean() * 100, 2),
     "KPI 2 - On-Time Delivery Rate (%)": round((~df["is_late"]).mean() * 100, 2),
@@ -59,7 +65,9 @@ kpis = {
 }
 kpi_df = pd.DataFrame(list(kpis.items()), columns=["KPI", "Value"])
 print(kpi_df.to_string(index=False))
+
 ## Step 4 — Defect Rate by Product Category
+
 cat_defects = (
     df.groupby("category")
     .agg(total_orders=("order_id","count"), defect_count=("is_defect","sum"), avg_score=("review_score","mean"))
@@ -80,7 +88,9 @@ for bar, val in zip(bars, cat_defects["defect_rate"]):
 plt.tight_layout()
 plt.savefig("../dashboard/defect_by_category.png", dpi=150, bbox_inches="tight")
 plt.show()
+
 ## Step 5 — Weekly Defect Trend (Ops Report)
+
 weekly = (
     df.groupby("week")
     .agg(orders=("order_id","count"), defects=("is_defect","sum"), revenue=("total_value","sum"))
@@ -102,7 +112,9 @@ ax1.set_xticklabels(weekly["week_str"].iloc[::4], rotation=45, ha="right", fonts
 plt.tight_layout()
 plt.savefig("../dashboard/weekly_trend.png", dpi=150, bbox_inches="tight")
 plt.show()
+
 ## Step 6 — Export Automated Ops Report
+
 from datetime import datetime
 report_date = datetime.now().strftime("%Y-%m-%d")
 with pd.ExcelWriter(f"../data/ops_report_{report_date}.xlsx", engine="openpyxl") as writer:
