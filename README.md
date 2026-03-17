@@ -6,6 +6,7 @@
 **Stack:** Python · PostgreSQL · pandas · matplotlib · seaborn · Power BI
 
 **Dataset link:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,8 +18,8 @@ plt.rcParams.update({"figure.dpi": 120, "axes.spines.top": False, "axes.spines.r
 print("Libraries loaded successfully")
 
 ## Step 1 — Load Dataset
-
 Download all CSVs from Kaggle and place in the  folder.
+
 orders      = pd.read_csv("../data/olist_orders_dataset.csv", parse_dates=["order_purchase_timestamp","order_delivered_customer_date","order_estimated_delivery_date"])
 order_items = pd.read_csv("../data/olist_order_items_dataset.csv")
 products    = pd.read_csv("../data/olist_products_dataset.csv")
