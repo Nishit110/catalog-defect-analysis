@@ -135,4 +135,4 @@ jupyter notebook notebooks/catalog_defect_analysis.ipynb
 
 ---
 
-*Built by Nishit Patel | MBA Business Analytics — ITM Skill University*
+![Main Dashboard](dashboard/dashboard_01_main_ops.png) ![Revenue Impact](dashboard/dashboard_02_revenue_impact.png)
